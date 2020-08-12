@@ -1,0 +1,14 @@
+canal:
+  server: 192.168.146.129:11111
+  destination: test
+  async: false
+spring:
+  application:
+    name: canal-example
+logging:
+  level:
+    top:
+      javatool:
+        canal:
+          client:
+            client: error
